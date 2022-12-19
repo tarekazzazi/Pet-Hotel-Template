@@ -5,7 +5,19 @@ using System;
 
 namespace pet_hotel
 {
-    public enum PetBreedType {}
-    public enum PetColorType {}
-    public class Pet {}
+    public enum PetBreedType {
+        Poodle,
+        Labrador,
+
+    };
+    public enum PetColorType {
+        Golden,
+        Black,
+    }
+    public class Pet {
+        public string name { get; set; }
+        public PetOwner petOwner { get;  set; }
+        public PetColorType color { get; set; }
+        public PetBreedType breed { get; set; }
+    }
 }

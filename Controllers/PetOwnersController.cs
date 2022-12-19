@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 namespace pet_hotel.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("/api/petowners")]
     public class PetOwnersController : ControllerBase
     {
         private readonly ApplicationContext _context;
@@ -20,6 +20,7 @@ namespace pet_hotel.Controllers
         // occur when the route is missing in this controller
         [HttpGet]
         public IEnumerable<PetOwner> GetPets() {
+            
             return new List<PetOwner>();
         }
     }
