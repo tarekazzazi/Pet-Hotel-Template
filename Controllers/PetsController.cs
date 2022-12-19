@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 namespace pet_hotel.Controllers
 {
     [ApiController]
-    [Route("api/test")]
+    [Route("/api/pets")]
     public class PetsController : ControllerBase
     {
         private readonly ApplicationContext _context;
@@ -27,7 +27,6 @@ namespace pet_hotel.Controllers
         // }
 
         [HttpGet]
-        [Route("test")]
         public IEnumerable<Pet> GetPets() {
             PetOwner blaine = new PetOwner{
                 name = "Blaine",
@@ -47,7 +46,11 @@ namespace pet_hotel.Controllers
                 breed = PetBreedType.Labrador,
             };
 
-            return new List<Pet>{ newPet1, newPet2};
+            return new List<Pet>{ newPet1, newPet2 };
         }
     }
 }
+
+       
+    
+
