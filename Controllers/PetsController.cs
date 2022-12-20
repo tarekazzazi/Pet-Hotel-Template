@@ -20,24 +20,28 @@ namespace pet_hotel.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Pet> GetPets() {
 
-            Pet newPet1 = new Pet {
-                name = "Big Dog",
-                petOwner = "tarek",
-                color = PetColorType.Black,
-                breed = PetBreedType.Poodle,
-            };
+          public IEnumerable<Pet> GetPets() {
+              return _context.Pets;
+          }
+        // public IEnumerable<Pet> GetPets() {
+
+        //     Pet newPet1 = new Pet {
+        //         name = "Big Dog",
+        //         petOwner = "tarek",
+        //         color = PetColorType.Black,
+        //         breed = PetBreedType.Poodle,
+        //     };
       
-            Pet newPet2 = new Pet {
-                name = "Little Dog",
-                petOwner = "tarek",
-                color = PetColorType.Golden,
-                breed = PetBreedType.Labrador,
-            };
+        //     Pet newPet2 = new Pet {
+        //         name = "Little Dog",
+        //         petOwner = "tarek",
+        //         color = PetColorType.Golden,
+        //         breed = PetBreedType.Labrador,
+        //     };
 
-            return new List<Pet>{newPet1,newPet2};
-        }
+        //     return new List<Pet>{newPet1,newPet2};
+        // }
     }
 }
 
