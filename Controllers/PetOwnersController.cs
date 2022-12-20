@@ -25,14 +25,29 @@ namespace pet_hotel.Controllers
             return _context.PetOwners;
         }
 
+        [HttpDelete("{id}")]
+           public IActionResult DeleteOwner(int id)
+        {
+            PetOwner petOwners = _context.PetOwners.Find(id);
+            if (petOwners == null)
+            {
+                return NotFound();
+            }
+
+            _context.PetOwners.Remove(petOwners);
+            _context.SaveChanges();
+
+            return NoContent();
+        }
+
         // [HttpGet("{id}")]
         // public IEnumerable<PetOwner> GetOwners(id)
         // {
         //     PetOwner tarek = new PetOwner{
-            //     name = "Tarek",
-            //     email = "Speedytarek02@email.com",
-            //     pets = 0,
-            // };
+        //         name = "Tarek",
+        //         email = "Speedytarek02@email.com",
+        //         pets = 0,
+        //     };
         // }
     }
 }
