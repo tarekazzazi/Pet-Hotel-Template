@@ -1,0 +1,491 @@
+Script started on Tue Dec 20 16:43:16 2022
+[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef database update[15Dmigrations add petHotel[23Ddatabase update        [8D[15Dmigrations add petHotel           script[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[39;49m[39;49m[37m[39;49m[97mCREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+
+START TRANSACTION;
+
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20221220224142_pet_hotel', '5.0.8');
+
+COMMIT;
+
+[39;49m[37m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004h[7mdotnet ef database update[27m[25D[27md[27mo[27mt[27mn[27me[27mt[27m [27me[27mf[27m [27md[27ma[27mt[27ma[27mb[27ma[27ms[27me[27m [27mu[27mp[27md[27ma[27mt[27me ApplicationContextModelSnapshot[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[?1h=System.InvalidOperationException: The migration 'ApplicationContextModelSnapshot' was not found.
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationsAssemblyExtensions.GetMigrationId(IMigrationsAssembly assembly, String nameOrId)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.PopulateMigrations(IEnumerable`1 appliedMigrationEntries, String targetMigration, IReadOnlyList`1& migrationsToApply, IReadOnlyList`1& migrationsToRevert, Migration& actualTargetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.GetMigrationCommandLists(IReadOnlyList`1 appliedMigrationEntries, String targetMigration)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.Design.Internal.MigrationsOperations.UpdateDatabase(String targetMigration, String connectionString, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabaseImpl(String targetMigration, String connectionString, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabase.<>c__DisplayClass0_0.<.ctor>b__0()
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.OperationBase.Execute(Action action)
+[39;49m[39;49m[31m[39;49m[91mThe migration 'ApplicationContextModelSnapshot' was not found.[39;49m[31m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef database update ApplicationContextModelSnapshot                               [7mApplicationContextModelSnapshot.cs[27m[34D[27mA[27mp[27mp[27ml[27mi[27mc[27ma[27mt[27mi[27mo[27mn[27mC[27mo[27mn[27mt[27me[27mx[27mt[27mM[27mo[27md[27me[27ml[27mS[27mn[27ma[27mp[27ms[27mh[27mo[27mt[27m.[27mc[27ms[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[?1h=System.InvalidOperationException: The migration 'ApplicationContextModelSnapshot.cs' was not found.
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationsAssemblyExtensions.GetMigrationId(IMigrationsAssembly assembly, String nameOrId)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.PopulateMigrations(IEnumerable`1 appliedMigrationEntries, String targetMigration, IReadOnlyList`1& migrationsToApply, IReadOnlyList`1& migrationsToRevert, Migration& actualTargetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.GetMigrationCommandLists(IReadOnlyList`1 appliedMigrationEntries, String targetMigration)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.Design.Internal.MigrationsOperations.UpdateDatabase(String targetMigration, String connectionString, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabaseImpl(String targetMigration, String connectionString, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabase.<>c__DisplayClass0_0.<.ctor>b__0()
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.OperationBase.Execute(Action action)
+[39;49m[39;49m[31m[39;49m[91mThe migration 'ApplicationContextModelSnapshot.cs' was not found.[39;49m[31m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef database update ApplicationContextModelSnapshot.cs   .cs[60D                                                            [60Ddotnet ef database update ApplicationContextModelSnapshot.cs[60D                                                            [60Ddotnet ef database update ApplicationContextModelSnapshot.cs   [47Dmigrations script                              [30D[17Ddatabase update ApplicationContextModelSnapshot[47Dmigrations script                              [30D      [?2004l
+[?1h=[?1h=
+
+Usage: dotnet ef migrations [options] [command]
+
+Options:
+  -h|--help        Show help information
+  -v|--verbose     Show verbose output.
+  --no-color       Don't colorize output.
+  --prefix-output  Prefix output with level.
+
+Commands:
+  add     Adds a new migration.
+  bundle  Creates an executable to update the database.
+  list    Lists available migrations.
+  remove  Removes the last migration.
+  script  Generates a SQL script from migrations.
+
+Use "migrations [command] --help" for more information about a command.
+[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef migrations [11Ddatabase update ApplicationContextModelSnapshot.cs                                  ApplicationContextModelSnapshot[31D                               [31D[7m20221220224142_pet_hotel.Designer.cs[27m[36D[27m2[27m0[27m2[27m2[27m1[27m2[27m2[27m0[27m2[27m2[27m4[27m1[27m4[27m2[27m_[27mp[27me[27mt[27m_[27mh[27mo[27mt[27me[27ml[27m.[27mD[27me[27ms[27mi[27mg[27mn[27me[27mr[27m.[27mc[27ms[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[?1h=System.InvalidOperationException: The migration '20221220224142_pet_hotel.Designer.cs' was not found.
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationsAssemblyExtensions.GetMigrationId(IMigrationsAssembly assembly, String nameOrId)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.PopulateMigrations(IEnumerable`1 appliedMigrationEntries, String targetMigration, IReadOnlyList`1& migrationsToApply, IReadOnlyList`1& migrationsToRevert, Migration& actualTargetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.GetMigrationCommandLists(IReadOnlyList`1 appliedMigrationEntries, String targetMigration)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.Design.Internal.MigrationsOperations.UpdateDatabase(String targetMigration, String connectionString, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabaseImpl(String targetMigration, String connectionString, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabase.<>c__DisplayClass0_0.<.ctor>b__0()
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.OperationBase.Execute(Action action)
+[39;49m[39;49m[31m[39;49m[91mThe migration '20221220224142_pet_hotel.Designer.cs' was not found.[39;49m[31m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef database update 20221220224142_pet_hotel.Designer.cs[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[?1h=System.InvalidOperationException: The migration '20221220224142_pet_hotel.Designer.cs' was not found.
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationsAssemblyExtensions.GetMigrationId(IMigrationsAssembly assembly, String nameOrId)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.PopulateMigrations(IEnumerable`1 appliedMigrationEntries, String targetMigration, IReadOnlyList`1& migrationsToApply, IReadOnlyList`1& migrationsToRevert, Migration& actualTargetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.GetMigrationCommandLists(IReadOnlyList`1 appliedMigrationEntries, String targetMigration)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.Design.Internal.MigrationsOperations.UpdateDatabase(String targetMigration, String connectionString, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabaseImpl(String targetMigration, String connectionString, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabase.<>c__DisplayClass0_0.<.ctor>b__0()
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.OperationBase.Execute(Action action)
+[39;49m[39;49m[31m[39;49m[91mThe migration '20221220224142_pet_hotel.Designer.cs' was not found.[39;49m[31m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef database update 20221220224142_pet_hotel.Designer.cs[52Dmigrations                                          [41D[11Ddatabase update ApplicationContextModelSnapshot.cs   [47Dmigrations script                              [30D[17Ddatabase update ApplicationContextModelSnapshot.cs[50Dmigrations                                        [39Dadd [7m20221220224142_pet_hotel.Designer.cs[27m[36D[27m2[27m0[27m2[27m2[27m1[27m2[27m2[27m0[27m2[27m2[27m4[27m1[27m4[27m2[27m_[27mp[27me[27mt[27m_[27mh[27mo[27mt[27me[27ml[27m.[27mD[27me[27ms[27mi[27mg[27mn[27me[27mr[27m.[27mc[27ms[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+Done. To undo this action, use 'ef migrations remove'
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hmmigrt ations remove[?2004l
+zsh: command not found: migrations
+[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004heef migrations remove[?2004l
+zsh: command not found: ef
+[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hef migrations remove[20D[3P[17C   [17Ddotnet ef migrations add 20221220224142_pet_hotel.Designer.cs[51Ddatabase update 20221220224142_pet_hotel.Designer.cs[52Dmigrations add[P[37C                                        remove [?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[?1h=Removing migration '20221220224926_20221220224142_pet_hotel.Designer.cs'.
+Reverting the model snapshot.
+Done.
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef migrations remove [?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[?1h=[39;49m[39;49m[31m[39;49m[91mThe migration '20221220224142_pet_hotel' has already been applied to the database. Revert it and try again. If the migration has been applied to other databases, consider reverting its changes using a new migration instead.[39;49m[31m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef migrations remove [?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[?1h=Removing migration '20221220224142_pet_hotel'.
+Removing model snapshot.
+Done.
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef migrations remove [28D[7P[21C       [8D[20D[3P[17C   [17Ddotnet ef migrations add 20221220224142_pet_hotel.Designer.cs[61D[10P[11Cremove                                            [44D[17Ddotnet ef migrations add 20221220224142_pet_hotel.Designer.cs[51Ddatabase update 20221220224142_pet_hotel.Designer.cs[52Dmigrations                                          [41D[11Ddatabase update ApplicationContextModelSnapshot.cs[50Dmigrations                                        [39D[11Ddatabase update 20221220224142_pet_hotel.Designer.cs                                    [7mApplicationContextModelSnapshot.cs[27m[34D[27mA[27mp[27mp[27ml[27mi[27mc[27ma[27mt[27mi[27mo[27mn[27mC[27mo[27mn[27mt[27me[27mx[27mt[27mM[27mo[27md[27me[27ml[27mS[27mn[27ma[27mp[27ms[27mh[27mo[27mt[27m.[27mc[27ms[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[?1h=System.InvalidOperationException: The migration 'ApplicationContextModelSnapshot.cs' was not found.
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationsAssemblyExtensions.GetMigrationId(IMigrationsAssembly assembly, String nameOrId)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.PopulateMigrations(IEnumerable`1 appliedMigrationEntries, String targetMigration, IReadOnlyList`1& migrationsToApply, IReadOnlyList`1& migrationsToRevert, Migration& actualTargetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.GetMigrationCommandLists(IReadOnlyList`1 appliedMigrationEntries, String targetMigration)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.Design.Internal.MigrationsOperations.UpdateDatabase(String targetMigration, String connectionString, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabaseImpl(String targetMigration, String connectionString, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabase.<>c__DisplayClass0_0.<.ctor>b__0()
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.OperationBase.Execute(Action action)
+[39;49m[39;49m[31m[39;49m[91mThe migration 'ApplicationContextModelSnapshot.cs' was not found.[39;49m[31m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hccd M
+[JMigrations/  Models/[A[0m[27m[24m[40Ccd M[Kigrations[1m/[0m[0m [?2004l
+[J[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Migrations % [K[?2004hcd Migrations[13Ddotnet ef database update ApplicationContextModelSnapshot.cs[?2004l
+[?1h=[?1h=[39;49m[39;49m[31m[39;49m[91mNo project was found. Change the current working directory or use the --project option.[39;49m[31m[39;49m
+[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Migrations % [K[?2004hdotnet ef database update ApplicationContextModelSnapshot.cs[?2004l
+[?1h=[?1h=[39;49m[39;49m[31m[39;49m[91mNo project was found. Change the current working directory or use the --project option.[39;49m[31m[39;49m
+[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Migrations % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hcd ..dotnet ef database update ApplicationContextModelSnapshot.cs[60Dcd Migrations                                               [47D[13Ddotnet ef database update ApplicationContextModelSnapshot.cs                                  [7mInitialCreate[27m[13D[27mI[27mn[27mi[27mt[27mi[27ma[27ml[27mC[27mr[27me[27ma[27mt[27me[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[?1h=System.InvalidOperationException: The migration 'InitialCreate' was not found.
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationsAssemblyExtensions.GetMigrationId(IMigrationsAssembly assembly, String nameOrId)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.PopulateMigrations(IEnumerable`1 appliedMigrationEntries, String targetMigration, IReadOnlyList`1& migrationsToApply, IReadOnlyList`1& migrationsToRevert, Migration& actualTargetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.GetMigrationCommandLists(IReadOnlyList`1 appliedMigrationEntries, String targetMigration)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.Design.Internal.MigrationsOperations.UpdateDatabase(String targetMigration, String connectionString, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabaseImpl(String targetMigration, String connectionString, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabase.<>c__DisplayClass0_0.<.ctor>b__0()
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.OperationBase.Execute(Action action)
+[39;49m[39;49m[31m[39;49m[91mThe migration 'InitialCreate' was not found.[39;49m[31m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef database update InitialCreate[39Dcd ..                                  [34Ddotnet ef database update ApplicationContextModelSnapshot.cs[60Dcd Migrations                                               [47D[13Ddotnet ef database update ApplicationContextModelSnapshot.cs[60Dcd Migrations                                               [47D[13Ddotnet ef database update ApplicationContextModelSnapshot.cs[60Dcd ..                                                       [55D  c  ddotnet ef migrations script[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[39;49m[39;49m[37m[39;49m[97mCREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+
+[39;49m[37m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef migrations script [7mApplicationContextModelSnapshot.cs[27m[34D[27mA[27mp[27mp[27ml[27mi[27mc[27ma[27mt[27mi[27mo[27mn[27mC[27mo[27mn[27mt[27me[27mx[27mt[27mM[27mo[27md[27me[27ml[27mS[27mn[27ma[27mp[27ms[27mh[27mo[27mt[27m.[27mc[27ms[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+System.InvalidOperationException: The migration 'ApplicationContextModelSnapshot.cs' was not found.
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationsAssemblyExtensions.GetMigrationId(IMigrationsAssembly assembly, String nameOrId)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.GenerateScript(String fromMigration, String toMigration, MigrationsSqlGenerationOptions options)
+   at Microsoft.EntityFrameworkCore.Design.Internal.MigrationsOperations.ScriptMigration(String fromMigration, String toMigration, MigrationsSqlGenerationOptions options, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.ScriptMigrationImpl(String fromMigration, String toMigration, Boolean idempotent, Boolean noTransactions, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.ScriptMigration.<>c__DisplayClass0_0.<.ctor>b__0()
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.OperationBase.<>c__DisplayClass3_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.OperationBase.Execute(Action action)
+[39;49m[39;49m[31m[39;49m[91mThe migration 'ApplicationContextModelSnapshot.cs' was not found.[39;49m[31m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef migrations script ApplicationContextModelSnapshot.cs[P[34C [35D[P[34C [35D[P[34C [35D[P[34C [35D[P[34C [35D[P[34C [35D[P[34C [35D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C script[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Specify --help for a list of available options and commands.
+[39;49m[39;49m[31m[39;49m[91mUnrecognized command or argument 'ApplicationContextModelSnapshot.cs'[39;49m[31m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef migrations ApplicationContextModelSnapshot.cs script      [?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Specify --help for a list of available options and commands.
+[39;49m[39;49m[31m[39;49m[91mUnrecognized command or argument 'ApplicationContextModelSnapshot.cs'[39;49m[31m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef migrations ApplicationContextModelSnapshot.cs                                   [?2004l
+[?1h=[?1h=
+
+Usage: dotnet ef migrations [options] [command]
+
+Options:
+  -h|--help        Show help information
+  -v|--verbose     Show verbose output.
+  --no-color       Don't colorize output.
+  --prefix-output  Prefix output with level.
+
+Commands:
+  add     Adds a new migration.
+  bundle  Creates an executable to update the database.
+  list    Lists available migrations.
+  remove  Removes the last migration.
+  script  Generates a SQL script from migrations.
+
+Use "migrations [command] --help" for more information about a command.
+[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hllist  l  dotnet ef migrations list[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[?1h=No migrations were found.
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hggot g  ddotnet e ef migrations list[18D                  [18D-ef[?2004l
+[?1h=[39;49m[91mCould not execute because the specified command or file was not found.
+Possible reasons for this include:
+  * You misspelled a built-in dotnet command.
+  * You intended to execute a .NET program, but dotnet--ef does not exist.
+  * You intended to run a global tool, but a dotnet-prefixed executable with this name could not be found on the PATH.[39;49m
+[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet -ef ef[?2004l
+[?1h=[39;49m[91mCould not execute because the specified command or file was not found.
+Possible reasons for this include:
+  * You misspelled a built-in dotnet command.
+  * You intended to execute a .NET program, but dotnet-- does not exist.
+  * You intended to run a global tool, but a dotnet-prefixed executable with this name could not be found on the PATH.[39;49m
+[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet - ef[1C[1C ef [?2004l
+[?1h=[?1h=
+                     [39;49m[39;49m[37m[39;49m[97m_/\__       
+               ---==[39;49m[97m[39;49m[37m[39;49m[97m/    \\      
+         [39;49m[37m[39;49m[35m___  ___   [39;49m[95m[39;49m[37m[39;49m[97m|[39;49m[37m.    [39;49m[97m\|\    
+        [39;49m[37m[39;49m[35m| __|| __|  [39;49m[95m[39;49m[37m[39;49m[97m|  )   \\\   
+        [39;49m[37m[39;49m[35m| _| | _|   [39;49m[95m[39;49m[37m[39;49m[97m\_/ |  //|\\ 
+        [39;49m[37m[39;49m[35m|___||_|       [39;49m[95m[39;49m[37m[39;49m[97m/   \\\/\\[39;49m[37m[39;49m
+
+Entity Framework Core .NET Command-line Tools 6.0.8
+
+Usage: dotnet ef [options] [command]
+
+Options:
+  --version        Show version information
+  -h|--help        Show help information
+  -v|--verbose     Show verbose output.
+  --no-color       Don't colorize output.
+  --prefix-output  Prefix output with level.
+
+Commands:
+  database    Commands to manage the database.
+  dbcontext   Commands to manage DbContext types.
+  migrations  Commands to manage migrations.
+
+Use "dotnet ef [command] --help" for more information about a command.
+[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet  efef [1C[1C dbcontext -help[?2004l
+[?1h=[?1h=
+
+Usage: dotnet ef dbcontext [options] [command]
+
+Options:
+  -h|--help        Show help information
+  -v|--verbose     Show verbose output.
+  --no-color       Don't colorize output.
+  --prefix-output  Prefix output with level.
+
+Commands:
+  info      Gets information about a DbContext type.
+  list      Lists available DbContext types.
+  optimize  Generates a compiled version of the model used by the DbContext.
+  scaffold  Scaffolds a DbContext and entity types for a database.
+  script    Generates a SQL script from the DbContext. Bypasses any migrations.
+
+Use "dbcontext [command] --help" for more information about a command.
+[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef dbcontext -help     scaffold[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=[39;49m[39;49m[31m[39;49m[91mMissing required argument '<CONNECTION>'.[39;49m[31m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef dbcontext scaffold        script[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[39;49m[39;49m[37m[39;49m[97mCREATE TABLE "PetOwners" (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NULL,
+    email text NULL,
+    pets integer NOT NULL,
+    CONSTRAINT "PK_PetOwners" PRIMARY KEY (id)
+);
+
+
+CREATE TABLE "Pets" (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NULL,
+    "petOwner" text NULL,
+    color integer NOT NULL,
+    breed integer NOT NULL,
+    CONSTRAINT "PK_Pets" PRIMARY KEY (id)
+);
+
+
+[39;49m[37m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef dbcontext script[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[39;49m[39;49m[37m[39;49m[97mCREATE TABLE "PetOwners" (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NULL,
+    email text NULL,
+    pets integer NOT NULL,
+    CONSTRAINT "PK_PetOwners" PRIMARY KEY (id)
+);
+
+
+CREATE TABLE "Pets" (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NULL,
+    "petOwner" text NULL,
+    color integer NOT NULL,
+    breed integer NOT NULL,
+    CONSTRAINT "PK_Pets" PRIMARY KEY (id)
+);
+
+
+[39;49m[37m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef dbcontext scriptaffold[8D-help   [18D ef               [15D- efef ef migrations list[18D-ef               [15D ef ef ef dbcontext -helpscaffoldript  affold[8D-help   [18D ef               [15D- efef  ef ef ef dbcontext -helpscaffoldript  [1Cdbcontext script[16Dadbcontext script[16Dtdbcontext script[16Dadbcontext script[16Dbdbcontext script[16Dsdbcontext script[16Dedbcontext script[16D[P[16C [17D[P[16C [17Dadbcontext script[16Dsdbcontext script[16Dwdbcontext script[16Dedbcontext script[16D[P[16C [17D[P[16C [17Dedbcontext script[16D dbcontext script[16Dudbcontext script[16Dpdbcontext script[16D[1Cdbcontext script[16Dadbcontext script[16Dtdbcontext script[16Dedbcontext script[16D dbcontext script[16D[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Specify --help for a list of available options and commands.
+[39;49m[39;49m[31m[39;49m[91mUnrecognized command or argument 'script'[39;49m[31m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef database update dbcontext script[42D                                          [42Ddotnet ef database update dbcontext script[31D[16P[15C                [16D[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[39;49m[39;49m[37m[39;49m[97mCREATE TABLE "PetOwners" (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NULL,
+    email text NULL,
+    pets integer NOT NULL,
+    CONSTRAINT "PK_PetOwners" PRIMARY KEY (id)
+);
+
+
+CREATE TABLE "Pets" (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NULL,
+    "petOwner" text NULL,
+    color integer NOT NULL,
+    breed integer NOT NULL,
+    CONSTRAINT "PK_Pets" PRIMARY KEY (id)
+);
+
+
+[39;49m[37m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef dbcontext script[15Database update dbcontext script               [?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[?1h=Done.
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef database update [15Dbcontext script[15Database update dbcontext script[31D[16P[15C                [16D[15Database update [15Dbcontext script      [1C[1Catabase update dbcontext script[31D[16P[15C                [16Daffold[8D-help   [18D ef               [15Def dbcontext -helpscaffoldript  [15Database update dbcontext script[31D[16P[9C                      [22D[9Database update --db[19Dbcontext           [10D[9Database update dbcontext script[31D[16P[9C                      [22D[9Database update dbcontext script[31D[16P[9C                      [22D[9Database update --dbcontext[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Specify --help for a list of available options and commands.
+[39;49m[39;49m[31m[39;49m[91mUnrecognized option '--dbcontext'[39;49m[31m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef database update --dbcontext[P[9C [10D[P[9C [10D[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[?1h=System.InvalidOperationException: The migration 'dbcontext' was not found.
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationsAssemblyExtensions.GetMigrationId(IMigrationsAssembly assembly, String nameOrId)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.PopulateMigrations(IEnumerable`1 appliedMigrationEntries, String targetMigration, IReadOnlyList`1& migrationsToApply, IReadOnlyList`1& migrationsToRevert, Migration& actualTargetMigration)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.GetMigrationCommandLists(IReadOnlyList`1 appliedMigrationEntries, String targetMigration)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.Design.Internal.MigrationsOperations.UpdateDatabase(String targetMigration, String connectionString, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabaseImpl(String targetMigration, String connectionString, String contextType)
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.UpdateDatabase.<>c__DisplayClass0_0.<.ctor>b__0()
+   at Microsoft.EntityFrameworkCore.Design.OperationExecutor.OperationBase.Execute(Action action)
+[39;49m[39;49m[31m[39;49m[91mThe migration 'dbcontext' was not found.[39;49m[31m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef database update dbcontext[9D--dbcontext[11D           [11D[15Dbcontext script[15Database update dbcontext script[31D[16P[15C                [16Daffold[8D-help   [18D ef               [15D- efef ef migrations list    ApplicationContextModelSnapshot.cs script[41Dscript ApplicationContextModelSnapshot.cs[34D                                  [35D[17Ddatabase update InitialCreate[39Dcd ..                                  [34Ddotnet ef database update ApplicationContextModelSnapshot.cs[60Dcd Migrations                                               [47D[13Ddotnet ef database update ApplicationContextModelSnapshot.cs[60Dcd ..                                                       [55Ddotnet ef database update InitialCreate[29Dmigrations script            [12D ApplicationContextModelSnapshot.cs[34D                                  [35D      db            [?2004l
+[?1h=[?1h=
+                     [39;49m[39;49m[37m[39;49m[97m_/\__       
+               ---==[39;49m[97m[39;49m[37m[39;49m[97m/    \\      
+         [39;49m[37m[39;49m[35m___  ___   [39;49m[95m[39;49m[37m[39;49m[97m|[39;49m[37m.    [39;49m[97m\|\    
+        [39;49m[37m[39;49m[35m| __|| __|  [39;49m[95m[39;49m[37m[39;49m[97m|  )   \\\   
+        [39;49m[37m[39;49m[35m| _| | _|   [39;49m[95m[39;49m[37m[39;49m[97m\_/ |  //|\\ 
+        [39;49m[37m[39;49m[35m|___||_|       [39;49m[95m[39;49m[37m[39;49m[97m/   \\\/\\[39;49m[37m[39;49m
+
+Entity Framework Core .NET Command-line Tools 6.0.8
+
+Usage: dotnet ef [options] [command]
+
+Options:
+  --version        Show version information
+  -h|--help        Show help information
+  -v|--verbose     Show verbose output.
+  --no-color       Don't colorize output.
+  --prefix-output  Prefix output with level.
+
+Commands:
+  database    Commands to manage the database.
+  dbcontext   Commands to manage DbContext types.
+  migrations  Commands to manage migrations.
+
+Use "dotnet ef [command] --help" for more information about a command.
+[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hddatabase[?2004l
+zsh: command not found: database
+[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdatabase[8Ddotnet ef databse  ase[?2004l
+[?1h=[?1h=
+
+Usage: dotnet ef database [options] [command]
+
+Options:
+  -h|--help        Show help information
+  -v|--verbose     Show verbose output.
+  --no-color       Don't colorize output.
+  --prefix-output  Prefix output with level.
+
+Commands:
+  drop    Drops the database.
+  update  Updates the database to a specified migration.
+
+Use "database [command] --help" for more information about a command.
+[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef database        [?2004l
+[?1h=[?1h=
+                     [39;49m[39;49m[37m[39;49m[97m_/\__       
+               ---==[39;49m[97m[39;49m[37m[39;49m[97m/    \\      
+         [39;49m[37m[39;49m[35m___  ___   [39;49m[95m[39;49m[37m[39;49m[97m|[39;49m[37m.    [39;49m[97m\|\    
+        [39;49m[37m[39;49m[35m| __|| __|  [39;49m[95m[39;49m[37m[39;49m[97m|  )   \\\   
+        [39;49m[37m[39;49m[35m| _| | _|   [39;49m[95m[39;49m[37m[39;49m[97m\_/ |  //|\\ 
+        [39;49m[37m[39;49m[35m|___||_|       [39;49m[95m[39;49m[37m[39;49m[97m/   \\\/\\[39;49m[37m[39;49m
+
+Entity Framework Core .NET Command-line Tools 6.0.8
+
+Usage: dotnet ef [options] [command]
+
+Options:
+  --version        Show version information
+  -h|--help        Show help information
+  -v|--verbose     Show verbose output.
+  --no-color       Don't colorize output.
+  --prefix-output  Prefix output with level.
+
+Commands:
+  database    Commands to manage the database.
+  dbcontext   Commands to manage DbContext types.
+  migrations  Commands to manage migrations.
+
+Use "dotnet ef [command] --help" for more information about a command.
+[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef dbcontext[?2004l
+[?1h=[?1h=
+
+Usage: dotnet ef dbcontext [options] [command]
+
+Options:
+  -h|--help        Show help information
+  -v|--verbose     Show verbose output.
+  --no-color       Don't colorize output.
+  --prefix-output  Prefix output with level.
+
+Commands:
+  info      Gets information about a DbContext type.
+  list      Lists available DbContext types.
+  optimize  Generates a compiled version of the model used by the DbContext.
+  scaffold  Scaffolds a DbContext and entity types for a database.
+  script    Generates a SQL script from the DbContext. Bypasses any migrations.
+
+Use "dbcontext [command] --help" for more information about a command.
+[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef dbcontext[9D         [9Ddbcontext[19D                   [19Ddotnet ef dbcontext script[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[39;49m[39;49m[37m[39;49m[97mCREATE TABLE "PetOwners" (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NULL,
+    email text NULL,
+    pets integer NOT NULL,
+    CONSTRAINT "PK_PetOwners" PRIMARY KEY (id)
+);
+
+
+CREATE TABLE "Pets" (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NULL,
+    "petOwner" text NULL,
+    color integer NOT NULL,
+    breed integer NOT NULL,
+    CONSTRAINT "PK_Pets" PRIMARY KEY (id)
+);
+
+
+[39;49m[37m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004h

@@ -18,11 +18,22 @@ namespace pet_hotel.Controllers
 
         // This is just a stub for GET / to prevent any weird frontend errors that 
         // occur when the route is missing in this controller
-        [HttpGet]
-        public IEnumerable<PetOwner> GetOwners() 
-        {
+        // [HttpGet]
+        // public IEnumerable<PetOwner> GetOwners() 
+        // {
     
-            return _context.PetOwners;
+        //     return _context.PetOwners;
+        // }
+        [HttpGet]
+        public IEnumerable<PetOwner> GetOwners()
+        {
+            PetOwner tarek = new PetOwner{
+                name = "Tarek",
+                emailAddress = "Speedytarek02@email.com",
+                petCount = 0,
+            };
+            // Console.WriteLine(tarek.email);
+            return new List<PetOwner>{tarek};
         }
 
         [HttpDelete("{id}")]
@@ -46,14 +57,6 @@ namespace pet_hotel.Controllers
         _context.SaveChanges();
         return CreatedAtAction("GetOwners", new { id = petOwners.id }, petOwners);
         }
-        // [HttpGet("{id}")]
-        // public IEnumerable<PetOwner> GetOwners(id)
-        // {
-        //     PetOwner tarek = new PetOwner{
-        //         name = "Tarek",
-        //         email = "Speedytarek02@email.com",
-        //         pets = 0,
-        //     };
-        // }
+  
     }
 }
