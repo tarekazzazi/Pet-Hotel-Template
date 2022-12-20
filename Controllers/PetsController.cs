@@ -19,34 +19,24 @@ namespace pet_hotel.Controllers
             _context = context;
         }
 
-        // This is just a stub for GET / to prevent any weird frontend errors that 
-        // occur when the route is missing in this controller
-        // [HttpGet]
-        // public IEnumerable<Pet> GetPets() {
-        //     return new List<Pet>();
-        // }
-
         [HttpGet]
         public IEnumerable<Pet> GetPets() {
-            PetOwner blaine = new PetOwner{
-                name = "Blaine",
-            };
 
             Pet newPet1 = new Pet {
                 name = "Big Dog",
-                petOwner = blaine,
+                petOwner = "tarek",
                 color = PetColorType.Black,
                 breed = PetBreedType.Poodle,
             };
-
+      
             Pet newPet2 = new Pet {
                 name = "Little Dog",
-                petOwner = blaine,
+                petOwner = "tarek",
                 color = PetColorType.Golden,
                 breed = PetBreedType.Labrador,
             };
 
-            return new List<Pet>{ newPet1, newPet2 };
+            return new List<Pet>{newPet1,newPet2};
         }
     }
 }

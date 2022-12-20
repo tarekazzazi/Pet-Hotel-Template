@@ -8,16 +8,19 @@ namespace pet_hotel
     public enum PetBreedType {
         Poodle,
         Labrador,
-
     };
+    
     public enum PetColorType {
-        Golden,
-        Black,
+         Golden,
+         Black, 
     }
     public class Pet {
+        public int id { get; set; }
         public string name { get; set; }
-        public PetOwner petOwner { get;  set; }
-        public PetColorType color { get; set; }
-        public PetBreedType breed { get; set; }
+        public string petOwner { get;  set; }
+        [JsonConverter(typeof(JsonStringEnumConverter))]
+        public  PetColorType color { get; set; }
+        [JsonConverter(typeof(JsonStringEnumConverter))]
+        public  PetBreedType breed{ get; set; }
     }
 }

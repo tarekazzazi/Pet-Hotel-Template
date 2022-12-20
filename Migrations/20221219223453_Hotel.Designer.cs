@@ -10,8 +10,8 @@ using pet_hotel.Models;
 namespace dotnet_bakery.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20220817235827_CreatePetsTable")]
-    partial class CreatePetsTable
+    [Migration("20221219223453_Hotel")]
+    partial class Hotel
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -31,17 +31,13 @@ namespace dotnet_bakery.Migrations
                     b.Property<int>("breed")
                         .HasColumnType("integer");
 
-                    b.Property<DateTime>("checkedInAt")
-                        .HasColumnType("timestamp without time zone");
-
                     b.Property<int>("color")
                         .HasColumnType("integer");
 
                     b.Property<string>("name")
-                        .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("petOwnerid")
+                    b.Property<int?>("petOwnerid")
                         .HasColumnType("integer");
 
                     b.HasKey("id");
@@ -58,13 +54,14 @@ namespace dotnet_bakery.Migrations
                         .HasColumnType("integer")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
-                    b.Property<string>("emailAddress")
-                        .IsRequired()
+                    b.Property<string>("email")
                         .HasColumnType("text");
 
                     b.Property<string>("name")
-                        .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<int>("pet_id")
+                        .HasColumnType("integer");
 
                     b.HasKey("id");
 
@@ -75,9 +72,7 @@ namespace dotnet_bakery.Migrations
                 {
                     b.HasOne("pet_hotel.PetOwner", "petOwner")
                         .WithMany()
-                        .HasForeignKey("petOwnerid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("petOwnerid");
 
                     b.Navigation("petOwner");
                 });
