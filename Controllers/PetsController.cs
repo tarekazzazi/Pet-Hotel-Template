@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore;
 namespace pet_hotel.Controllers
 {
     [ApiController]
-    [Route("/api/pets")]
+    [Route("/api/[controller]")]
     public class PetsController : ControllerBase
     {
         private readonly ApplicationContext _context;
@@ -20,15 +20,23 @@ namespace pet_hotel.Controllers
         }
 
         [HttpGet]
-
           public IEnumerable<Pet> GetPets() {
-              return _context.Pets;
+              return _context.Pets.Include(PetOwner => PetOwner.petOwner);
           }
+        [HttpPost]
+
+            public IActionResult PostPet(Pet pet)
+            {
+            _context.Pets.Add(pet);
+            _context.SaveChanges();
+            return CreatedAtAction("Get Pets", new { id = pet.id }, pet);
+            }
+        // [HttpGet]
         // public IEnumerable<Pet> GetPets() {
 
         //     Pet newPet1 = new Pet {
         //         name = "Big Dog",
-        //         petOwner = "tarek",
+        //         petOwnerid = 2,
         //         color = PetColorType.Black,
         //         breed = PetBreedType.Poodle,
         //     };
@@ -40,7 +48,7 @@ namespace pet_hotel.Controllers
         //         breed = PetBreedType.Labrador,
         //     };
 
-        //     return new List<Pet>{newPet1,newPet2};
+        //     return new List<Pet>{newPet1};
         // }
     }
 }

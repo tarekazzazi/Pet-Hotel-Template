@@ -16,11 +16,16 @@ namespace pet_hotel
     }
     public class Pet {
         public int id { get; set; }
+        [Required]
         public string name { get; set; }
-        public string petOwner { get;  set; }
+   
         [JsonConverter(typeof(JsonStringEnumConverter))]
         public  PetColorType color { get; set; }
         [JsonConverter(typeof(JsonStringEnumConverter))]
         public  PetBreedType breed{ get; set; }
+
+        [ForeignKey("petOwner")]
+        public int petOwnerid { get;  set; }
+        public PetOwner petOwner { get; set; }
     }
 }

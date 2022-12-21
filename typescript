@@ -488,4 +488,96 @@ CREATE TABLE "Pets" (
 
 
 [39;49m[37m[39;49m
-[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004h
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hggit status[?2004l
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   Controllers/PetOwnersController.cs[m
+	[31mdeleted:    Migrations/20221219222909_pet_hotel.Designer.cs[m
+	[31mdeleted:    Migrations/20221219222909_pet_hotel.cs[m
+	[31mdeleted:    Migrations/20221219223453_Hotel.Designer.cs[m
+	[31mdeleted:    Migrations/20221219223453_Hotel.cs[m
+	[31mdeleted:    Migrations/20221220031632_fixedDB.Designer.cs[m
+	[31mdeleted:    Migrations/20221220031632_fixedDB.cs[m
+	[31mmodified:   Models/PetOwner.cs[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtypescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hggit commit -m "fixed DB "[?2004l
+[main cbf8e55] fixed DB
+ 9 files changed, 508 insertions(+), 454 deletions(-)
+ delete mode 100644 Migrations/20221219222909_pet_hotel.Designer.cs
+ delete mode 100644 Migrations/20221219222909_pet_hotel.cs
+ delete mode 100644 Migrations/20221219223453_Hotel.Designer.cs
+ delete mode 100644 Migrations/20221219223453_Hotel.cs
+ delete mode 100644 Migrations/20221220031632_fixedDB.Designer.cs
+ delete mode 100644 Migrations/20221220031632_fixedDB.cs
+ create mode 100644 typescript
+[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hggit push origin main[?2004l
+Enumerating objects: 14, done.
+Counting objects:   7% (1/14)Counting objects:  14% (2/14)Counting objects:  21% (3/14)Counting objects:  28% (4/14)Counting objects:  35% (5/14)Counting objects:  42% (6/14)Counting objects:  50% (7/14)Counting objects:  57% (8/14)Counting objects:  64% (9/14)Counting objects:  71% (10/14)Counting objects:  78% (11/14)Counting objects:  85% (12/14)Counting objects:  92% (13/14)Counting objects: 100% (14/14)Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects:  12% (1/8)Compressing objects:  25% (2/8)Compressing objects:  37% (3/8)Compressing objects:  50% (4/8)Compressing objects:  62% (5/8)Compressing objects:  75% (6/8)Compressing objects:  87% (7/8)Compressing objects: 100% (8/8)Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)Writing objects:  25% (2/8)Writing objects:  37% (3/8)Writing objects:  50% (4/8)Writing objects:  62% (5/8)Writing objects:  75% (6/8)Writing objects:  87% (7/8)Writing objects: 100% (8/8)Writing objects: 100% (8/8), 4.49 KiB | 1.50 MiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To github.com:tarekazzazi/Pet-Hotel-Template.git
+   5cfcb6d..cbf8e55  main -> main
+[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hgit push origin main[16Dcommit -m "fixed DB"[20Dadd .               [15Dstatus[10Ddotnet ef dbcontext script      [9D         [9Ddbcontext[9D         [9Dmi  [?2004l
+[?1h=[?1h=
+                     [39;49m[39;49m[37m[39;49m[97m_/\__       
+               ---==[39;49m[97m[39;49m[37m[39;49m[97m/    \\      
+         [39;49m[37m[39;49m[35m___  ___   [39;49m[95m[39;49m[37m[39;49m[97m|[39;49m[37m.    [39;49m[97m\|\    
+        [39;49m[37m[39;49m[35m| __|| __|  [39;49m[95m[39;49m[37m[39;49m[97m|  )   \\\   
+        [39;49m[37m[39;49m[35m| _| | _|   [39;49m[95m[39;49m[37m[39;49m[97m\_/ |  //|\\ 
+        [39;49m[37m[39;49m[35m|___||_|       [39;49m[95m[39;49m[37m[39;49m[97m/   \\\/\\[39;49m[37m[39;49m
+
+Entity Framework Core .NET Command-line Tools 6.0.8
+
+Usage: dotnet ef [options] [command]
+
+Options:
+  --version        Show version information
+  -h|--help        Show help information
+  -v|--verbose     Show verbose output.
+  --no-color       Don't colorize output.
+  --prefix-output  Prefix output with level.
+
+Commands:
+  database    Commands to manage the database.
+  dbcontext   Commands to manage DbContext types.
+  migrations  Commands to manage migrations.
+
+Use "dotnet ef [command] --help" for more information about a command.
+[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef [7mmigrations[27m[10D[27mm[27mi[27mg[27mr[27ma[27mt[27mi[27mo[27mn[27ms[?2004l
+[?1h=[?1h=
+
+Usage: dotnet ef migrations [options] [command]
+
+Options:
+  -h|--help        Show help information
+  -v|--verbose     Show verbose output.
+  --no-color       Don't colorize output.
+  --prefix-output  Prefix output with level.
+
+Commands:
+  add     Adds a new migration.
+  bundle  Creates an executable to update the database.
+  list    Lists available migrations.
+  remove  Removes the last migration.
+  script  Generates a SQL script from migrations.
+
+Use "migrations [command] --help" for more information about a command.
+[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef migrations add getPet   _Pet_owners[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+Done. To undo this action, use 'ef migrations remove'
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                          [0m[27m[24m[Jtazzazi@Tareks-MBP Pet-Hotel-Template % [K[?2004hdotnet ef migrations add get_Pet_owners[18D                  [19D[10D          [10D[10Dgit push origin main[20Ddotnet ef           [10Dmigrations
