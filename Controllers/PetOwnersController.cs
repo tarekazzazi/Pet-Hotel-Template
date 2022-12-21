@@ -21,19 +21,14 @@ namespace pet_hotel.Controllers
         [HttpGet]
         public IEnumerable<PetOwner> GetOwners() 
         {
-    
-            return _context.PetOwners;
+            
+            return _context.PetOwners.Include(petOwner => petOwner.petList);
         }
 
         [HttpDelete("{id}")]
            public IActionResult DeleteOwner(int id)
         {
             PetOwner petOwners = _context.PetOwners.Find(id);
-            if (petOwners == null)
-            {
-                return NotFound();
-            }
-
             _context.PetOwners.Remove(petOwners);
             _context.SaveChanges();
 

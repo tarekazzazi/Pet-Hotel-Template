@@ -9,8 +9,17 @@ namespace pet_hotel
 
         public int id { get; set; }
         public string name { get; set; }
-        public string emailAddress { get; set; }
-        public int petCount { get; set; }
+        public string emailAddress { get; set; }   
+        [JsonIgnore]
+        public List<Pet> petList { get; set;}
+        [NotMapped]   
+        public int petCount 
+        { 
+            get
+            {
+                return (this.petList != null ? this.petList.Count : 0);
+            }
+        }
 
     }
 }
