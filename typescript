@@ -344,30 +344,91 @@ Pets
 [?1h=get by id167
 Pets
 Pets
-s" ("petOwnerid");
-
-
-[39;49m[37m[39;49m
-[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004h[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet ef dbcontext script      [12Ddb context  [10Def        [8D database update[15Dupdate         [9Dmigrations add UpdateDB[8D        [8DUpdateDB[23Dupdate                 [17Ddatabase update              run[?2004l
-[?1h=[?1h=[?1h=[?1h=Build started...
-[?1h=Build succeeded.
-[?1h=Specify --help for a list of available options and commands.
-[39;49m[39;49m[31m[39;49m[91mUnrecognized command or argument 'run'[39;49m[31m[39;49m
-[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet ef rundbcontext script      [12Ddb context  [10Def        [8D database update[15Dupdate         [9Dmigrations add UpdateDB[8D        [8D   [10Ddatabase update[14Dbupdat[2C      context script[14D context      script[20D[3P[17C   [24Dnpm run start           [11D[13Ddotnet ef database update[15Dmigrations add petHotel[23Ddatabase update        [8D[25Dnpm run start            [12D[13Ddotnet db context script[24Dnpm run start           [11D[?2004l
-[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Missing script: "start"
-[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
-[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Did you mean one of these?
-[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     npm star # Mark your favorite packages
-[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     npm stars # View packages marked as favorites
-[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
-[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m To see a list of scripts, run:
-[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m   npm run
-[0m
-[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
-[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/tazzazi/.npm/_logs/2022-12-22T19_18_20_420Z-debug-0.log
-[0m[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hnpm run start[13Ddotnet ef rundbcontext script      [12Ddb context  [10Def        [8D database update[15Dupdate         [9Dmigrations add UpdateDB[8D        [8D   [10Ddatabase update[14Dbupdat[2C      context script[14D context      script[20D[3P[17C   [24Dnpm run start           [11D[13Ddotnet ef database update[15Dmigrations add petHotel[12D            [13D[20Dgit pull or[2Cin main[20Ddotnet ef database update [26Dgit pull origin main     [20Ddotnet ef m[2Crations add petHotel[23Ddatabase update        [8D[25Dnpm run start            [12D[13Ddotnet db context script[17Def db context script      [9Dcontext script[14Dupdate        [8Dcontext script[14D context      script[20D[3P[17C   [24Dnpm run start           [11D[13Ddotnet ef database update[15Dmigrations add petHotel[12D            [13D[20Dgit pull or[2Cin main[20Ddotnet ef database update [16Dmigrations add pet_hotel_2[26Ddatabase update pet_hotel_2[11D           [12D pet_hotel[9D         [10D[15Dmigrations add pet_hotel[34Dgit push or[2Cin main              [14D[16Dcommit -m "post PetOwner name"[30Dadd .                         [25Dstatuspush origin main[16Dcommit -m "delete working"[26Dadd .                     [21Dpush origin main[16Dcommit -m "getting from DB now"[31Dadd .                          [26D[9Ddotnet ef database update[15Dmigrations add fixedDB       [25Dgit push or[2Cin main    [16Dcommit -m "displaying Breed and Color Correctly"[48Dadd .                                           [43D[9Ddotnet ef database update[15Dmigrations add Hotel     pet_hotel[24Ddatabase update         [9D[15Dmigrations add pet_hotel[24Ddatabase update         [9D[15Dmigrations add pet_hotel[24Ddatabase update         [9D[15Dmigrations add pet_hotel[9D         [10Dlist--help[27D--help                     [21Ddotnet ef migrations add   [10Ddatabase update[25Dgit commit -m "new pets rendered from HttpGet"[42Dadd .                                     [37Dstatuscommit -m "returned an empty array at endpoint api/petowners
-"[K[A[47C[4Cstatus                                                      [1B[K[A[58Cadd . pull origin main[14Dsh[12C[16Dcommit -m "refactor and added input getter"[43Dstatus                                     [37Dadd . statuspush origin main[16Dstatus          [10Dcommit -m "horizontal selector fits answer word length now"[59Dadd .                                                      [54Dstatuspush origin main[16Dcommit -m "now selecor for vertical words works"[48Dadd .                                           [43Dstatuspush origin main[16Dcommit -m "border-horizontal-selector added"[44Dadd .                                       [39Dstatuspush origin main[16Dcommit -m "fixed error in while loop"[37Dadd .                                [32Dpush origin main[16Dcommit -m "created rows"[24Dadd .                   [19Dstatus push origin main[16Dcommit -m "test data looping correctly to dom"[46Dstatus                                        [40Dadd . statuspush origin main[16Dcommit -m "prevent numbers from entering input-field"[53Dadd .                                                [48Dstatuspush origin main[16Dcommit -m "added inputs and hide letters"[41Dadd .                                    [36Dstatuspush origin main[16Dcommit -m "added ability to select verticle columns"[52Dadd .                                               [47Dstatuspush origin main[16Dcommit -m "removed commented out code"[38Dstatus                                [32Dcommit -m "removed commented out code"[38Dstatus                                [32D       g  ddotnet run[?2004l[1B[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
 [40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
       Now listening on: http://localhost:5000
 [40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
@@ -376,10 +437,1284 @@ s" ("petOwnerid");
       Hosting environment: Development
 [40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
       Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
-[?1h=get by id166
+[?1h=get by id170
+[41m[30mfail[39m[22m[49m: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      System.InvalidOperationException: The expression 'petOwner.petList' is invalid inside an 'Include' operation, since it does not represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, use casting ('t => ((Derived)t).MyProperty') or the 'as' operator ('t => (t as Derived).MyProperty'). Collection navigation access can be filtered by composing Where, OrderBy(Descending), ThenBy(Descending), Skip or Take operations. For more information on including related data, see http://go.microsoft.com/fwlink/?LinkID=746393.
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.PopulateIncludeTree(IncludeTreeNode includeTreeNode, Expression expression, Boolean setLoaded)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+         at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+         at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+         at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+         at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+         at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+         at Microsoft.EntityFrameworkCore.Query.RelationalQueryTranslationPreprocessor.Process(Expression query)
+         at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+         at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+         at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+         at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+         at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+         at pet_hotel.Controllers.PetOwnersController.GetById(Int32 id) in /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Controllers/PetOwnersController.cs:line 32
+         at lambda_method197(Closure , Object , Object[] )
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
 Pets
 Pets
 ^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
       Application is shutting down...
 [?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+[?1h=get by id171
+[41m[30mfail[39m[22m[49m: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      System.InvalidOperationException: The expression 'petOwner.petList' is invalid inside an 'Include' operation, since it does not represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, use casting ('t => ((Derived)t).MyProperty') or the 'as' operator ('t => (t as Derived).MyProperty'). Collection navigation access can be filtered by composing Where, OrderBy(Descending), ThenBy(Descending), Skip or Take operations. For more information on including related data, see http://go.microsoft.com/fwlink/?LinkID=746393.
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.PopulateIncludeTree(IncludeTreeNode includeTreeNode, Expression expression, Boolean setLoaded)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+         at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+         at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+         at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+         at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+         at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+         at Microsoft.EntityFrameworkCore.Query.RelationalQueryTranslationPreprocessor.Process(Expression query)
+         at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+         at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+         at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+         at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+         at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+         at pet_hotel.Controllers.PetOwnersController.GetById(Int32 id) in /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Controllers/PetOwnersController.cs:line 32
+         at lambda_method197(Closure , Object , Object[] )
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Pets
+Pets
+
+get by id172
+[41m[30mfail[39m[22m[49m: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      System.InvalidOperationException: The expression 'petOwner.petList' is invalid inside an 'Include' operation, since it does not represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, use casting ('t => ((Derived)t).MyProperty') or the 'as' operator ('t => (t as Derived).MyProperty'). Collection navigation access can be filtered by composing Where, OrderBy(Descending), ThenBy(Descending), Skip or Take operations. For more information on including related data, see http://go.microsoft.com/fwlink/?LinkID=746393.
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.PopulateIncludeTree(IncludeTreeNode includeTreeNode, Expression expression, Boolean setLoaded)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+         at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+         at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+         at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+         at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+         at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+         at Microsoft.EntityFrameworkCore.Query.RelationalQueryTranslationPreprocessor.Process(Expression query)
+         at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+         at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+         at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+         at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+         at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+         at pet_hotel.Controllers.PetOwnersController.GetById(Int32 id) in /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Controllers/PetOwnersController.cs:line 32
+         at lambda_method197(Closure , Object , Object[] )
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Pets
+Pets
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+[?1h=get by id173
+Pets
+Pets
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+[?1h=[41m[30mfail[39m[22m[49m: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (14ms) [Parameters=[@p0='?', @p1='?'], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "PetOwners" ("emailAddress", name)
+      VALUES (@p0, @p1)
+      RETURNING id;
+[41m[30mfail[39m[22m[49m: Microsoft.EntityFrameworkCore.Update[10000]
+      An exception occurred in the database while saving changes for context type 'pet_hotel.Models.ApplicationContext'.
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+       ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+         at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+         at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlDataReader.NextResult()
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+         at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+         at System.Data.Common.DbCommand.ExecuteReader()
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+        Exception data:
+          Severity: ERROR
+          SqlState: 23502
+          MessageText: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+          Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+          SchemaName: public
+          TableName: PetOwners
+          ColumnName: petCount
+          File: execMain.c
+          Line: 1889
+          Routine: ExecConstraints
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+         at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+       ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+         at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+         at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlDataReader.NextResult()
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+         at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+         at System.Data.Common.DbCommand.ExecuteReader()
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+        Exception data:
+          Severity: ERROR
+          SqlState: 23502
+          MessageText: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+          Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+          SchemaName: public
+          TableName: PetOwners
+          ColumnName: petCount
+          File: execMain.c
+          Line: 1889
+          Routine: ExecConstraints
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+         at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+[41m[30mfail[39m[22m[49m: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+       ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+         at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+         at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlDataReader.NextResult()
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+         at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+         at System.Data.Common.DbCommand.ExecuteReader()
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+        Exception data:
+          Severity: ERROR
+          SqlState: 23502
+          MessageText: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+          Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+          SchemaName: public
+          TableName: PetOwners
+          ColumnName: petCount
+          File: execMain.c
+          Line: 1889
+          Routine: ExecConstraints
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+         at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+         at pet_hotel.Controllers.PetOwnersController.Post(PetOwner petOwner) in /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Controllers/PetOwnersController.cs:line 52
+         at lambda_method1(Closure , Object , Object[] )
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Pets
+Pets
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+[?1h=get by id175
+[41m[30mfail[39m[22m[49m: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      System.InvalidOperationException: The expression 'petOwner.petList' is invalid inside an 'Include' operation, since it does not represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, use casting ('t => ((Derived)t).MyProperty') or the 'as' operator ('t => (t as Derived).MyProperty'). Collection navigation access can be filtered by composing Where, OrderBy(Descending), ThenBy(Descending), Skip or Take operations. For more information on including related data, see http://go.microsoft.com/fwlink/?LinkID=746393.
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.PopulateIncludeTree(IncludeTreeNode includeTreeNode, Expression expression, Boolean setLoaded)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+         at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+         at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+         at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+         at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+         at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+         at Microsoft.EntityFrameworkCore.Query.RelationalQueryTranslationPreprocessor.Process(Expression query)
+         at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+         at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+         at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+         at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+         at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+         at pet_hotel.Controllers.PetOwnersController.GetById(Int32 id) in /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Controllers/PetOwnersController.cs:line 32
+         at lambda_method197(Closure , Object , Object[] )
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Pets
+Pets
+get by id176
+[41m[30mfail[39m[22m[49m: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      System.InvalidOperationException: The expression 'petOwner.petList' is invalid inside an 'Include' operation, since it does not represent a property access: 't => t.MyProperty'. To target navigations declared on derived types, use casting ('t => ((Derived)t).MyProperty') or the 'as' operator ('t => (t as Derived).MyProperty'). Collection navigation access can be filtered by composing Where, OrderBy(Descending), ThenBy(Descending), Skip or Take operations. For more information on including related data, see http://go.microsoft.com/fwlink/?LinkID=746393.
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.PopulateIncludeTree(IncludeTreeNode includeTreeNode, Expression expression, Boolean setLoaded)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.ProcessInclude(NavigationExpansionExpression source, Expression expression, Boolean thenInclude, Boolean setLoaded)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+         at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+         at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+         at System.Linq.Expressions.MethodCallExpression.Accept(ExpressionVisitor visitor)
+         at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+         at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+         at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+         at Microsoft.EntityFrameworkCore.Query.RelationalQueryTranslationPreprocessor.Process(Expression query)
+         at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+         at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+         at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+         at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+         at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+         at pet_hotel.Controllers.PetOwnersController.GetById(Int32 id) in /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Controllers/PetOwnersController.cs:line 32
+         at lambda_method197(Closure , Object , Object[] )
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Pets
+Pets
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+[?1h=get by id177
+Pets
+Pets
+Pets
+Pets
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+[?1h=[41m[30mfail[39m[22m[49m: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (12ms) [Parameters=[@p0='?', @p1='?'], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "PetOwners" ("emailAddress", name)
+      VALUES (@p0, @p1)
+      RETURNING id;
+[41m[30mfail[39m[22m[49m: Microsoft.EntityFrameworkCore.Update[10000]
+      An exception occurred in the database while saving changes for context type 'pet_hotel.Models.ApplicationContext'.
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+       ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+         at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+         at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlDataReader.NextResult()
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+         at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+         at System.Data.Common.DbCommand.ExecuteReader()
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+        Exception data:
+          Severity: ERROR
+          SqlState: 23502
+          MessageText: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+          Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+          SchemaName: public
+          TableName: PetOwners
+          ColumnName: petCount
+          File: execMain.c
+          Line: 1889
+          Routine: ExecConstraints
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+         at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+       ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+         at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+         at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlDataReader.NextResult()
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+         at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+         at System.Data.Common.DbCommand.ExecuteReader()
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+        Exception data:
+          Severity: ERROR
+          SqlState: 23502
+          MessageText: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+          Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+          SchemaName: public
+          TableName: PetOwners
+          ColumnName: petCount
+          File: execMain.c
+          Line: 1889
+          Routine: ExecConstraints
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+         at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+[41m[30mfail[39m[22m[49m: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+       ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+         at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+         at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlDataReader.NextResult()
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+         at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+         at System.Data.Common.DbCommand.ExecuteReader()
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+        Exception data:
+          Severity: ERROR
+          SqlState: 23502
+          MessageText: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+          Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+          SchemaName: public
+          TableName: PetOwners
+          ColumnName: petCount
+          File: execMain.c
+          Line: 1889
+          Routine: ExecConstraints
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+         at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+         at pet_hotel.Controllers.PetOwnersController.Post(PetOwner petOwner) in /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Controllers/PetOwnersController.cs:line 52
+         at lambda_method1(Closure , Object , Object[] )
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Pets
+Pets
+[41m[30mfail[39m[22m[49m: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (1ms) [Parameters=[@p0='?', @p1='?'], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "PetOwners" ("emailAddress", name)
+      VALUES (@p0, @p1)
+      RETURNING id;
+[41m[30mfail[39m[22m[49m: Microsoft.EntityFrameworkCore.Update[10000]
+      An exception occurred in the database while saving changes for context type 'pet_hotel.Models.ApplicationContext'.
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+       ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+         at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+         at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlDataReader.NextResult()
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+         at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+         at System.Data.Common.DbCommand.ExecuteReader()
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+        Exception data:
+          Severity: ERROR
+          SqlState: 23502
+          MessageText: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+          Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+          SchemaName: public
+          TableName: PetOwners
+          ColumnName: petCount
+          File: execMain.c
+          Line: 1889
+          Routine: ExecConstraints
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+         at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+       ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+         at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+         at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlDataReader.NextResult()
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+         at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+         at System.Data.Common.DbCommand.ExecuteReader()
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+        Exception data:
+          Severity: ERROR
+          SqlState: 23502
+          MessageText: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+          Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+          SchemaName: public
+          TableName: PetOwners
+          ColumnName: petCount
+          File: execMain.c
+          Line: 1889
+          Routine: ExecConstraints
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+         at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+[41m[30mfail[39m[22m[49m: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+       ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+         at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+         at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlDataReader.NextResult()
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+         at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+         at System.Data.Common.DbCommand.ExecuteReader()
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+        Exception data:
+          Severity: ERROR
+          SqlState: 23502
+          MessageText: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+          Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+          SchemaName: public
+          TableName: PetOwners
+          ColumnName: petCount
+          File: execMain.c
+          Line: 1889
+          Routine: ExecConstraints
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+         at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+         at pet_hotel.Controllers.PetOwnersController.Post(PetOwner petOwner) in /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Controllers/PetOwnersController.cs:line 52
+         at lambda_method1(Closure , Object , Object[] )
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Pets
+Pets
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+[?1h=[41m[30mfail[39m[22m[49m: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (9ms) [Parameters=[@p0='?', @p1='?'], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "PetOwners" ("emailAddress", name)
+      VALUES (@p0, @p1)
+      RETURNING id;
+[41m[30mfail[39m[22m[49m: Microsoft.EntityFrameworkCore.Update[10000]
+      An exception occurred in the database while saving changes for context type 'pet_hotel.Models.ApplicationContext'.
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+       ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+         at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+         at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlDataReader.NextResult()
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+         at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+         at System.Data.Common.DbCommand.ExecuteReader()
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+        Exception data:
+          Severity: ERROR
+          SqlState: 23502
+          MessageText: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+          Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+          SchemaName: public
+          TableName: PetOwners
+          ColumnName: petCount
+          File: execMain.c
+          Line: 1889
+          Routine: ExecConstraints
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+         at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+       ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+         at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+         at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlDataReader.NextResult()
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+         at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+         at System.Data.Common.DbCommand.ExecuteReader()
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+        Exception data:
+          Severity: ERROR
+          SqlState: 23502
+          MessageText: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+          Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+          SchemaName: public
+          TableName: PetOwners
+          ColumnName: petCount
+          File: execMain.c
+          Line: 1889
+          Routine: ExecConstraints
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+         at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+[41m[30mfail[39m[22m[49m: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+       ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+         at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+         at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlDataReader.NextResult()
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+         at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+         at System.Data.Common.DbCommand.ExecuteReader()
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+        Exception data:
+          Severity: ERROR
+          SqlState: 23502
+          MessageText: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+          Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+          SchemaName: public
+          TableName: PetOwners
+          ColumnName: petCount
+          File: execMain.c
+          Line: 1889
+          Routine: ExecConstraints
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+         at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+         at pet_hotel.Controllers.PetOwnersController.Post(PetOwner petOwner) in /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Controllers/PetOwnersController.cs:line 52
+         at lambda_method1(Closure , Object , Object[] )
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Pets
+Pets
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+[?1h=[41m[30mfail[39m[22m[49m: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (11ms) [Parameters=[@p0='?', @p1='?'], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "PetOwners" ("emailAddress", name)
+      VALUES (@p0, @p1)
+      RETURNING id;
+[41m[30mfail[39m[22m[49m: Microsoft.EntityFrameworkCore.Update[10000]
+      An exception occurred in the database while saving changes for context type 'pet_hotel.Models.ApplicationContext'.
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+       ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+         at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+         at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlDataReader.NextResult()
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+         at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+         at System.Data.Common.DbCommand.ExecuteReader()
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+        Exception data:
+          Severity: ERROR
+          SqlState: 23502
+          MessageText: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+          Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+          SchemaName: public
+          TableName: PetOwners
+          ColumnName: petCount
+          File: execMain.c
+          Line: 1889
+          Routine: ExecConstraints
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+         at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+       ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+         at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+         at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlDataReader.NextResult()
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+         at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+         at System.Data.Common.DbCommand.ExecuteReader()
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+        Exception data:
+          Severity: ERROR
+          SqlState: 23502
+          MessageText: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+          Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+          SchemaName: public
+          TableName: PetOwners
+          ColumnName: petCount
+          File: execMain.c
+          Line: 1889
+          Routine: ExecConstraints
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+         at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+[41m[30mfail[39m[22m[49m: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+       ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+         at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+         at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlDataReader.NextResult()
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+         at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+         at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+         at System.Data.Common.DbCommand.ExecuteReader()
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+        Exception data:
+          Severity: ERROR
+          SqlState: 23502
+          MessageText: null value in column "petCount" of relation "PetOwners" violates not-null constraint
+          Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+          SchemaName: public
+          TableName: PetOwners
+          ColumnName: petCount
+          File: execMain.c
+          Line: 1889
+          Routine: ExecConstraints
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+         at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+         at pet_hotel.Controllers.PetOwnersController.Post(PetOwner petOwner) in /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Controllers/PetOwnersController.cs:line 52
+         at lambda_method1(Closure , Object , Object[] )
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+         at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Pets
+Pets
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[10D          [10Ddotnet run   ef[?2004l
+[?1h=[?1h=
+                     [39;49m[39;49m[37m[39;49m[97m_/\__       
+               ---==[39;49m[97m[39;49m[37m[39;49m[97m/    \\      
+         [39;49m[37m[39;49m[35m___  ___   [39;49m[95m[39;49m[37m[39;49m[97m|[39;49m[37m.    [39;49m[97m\|\    
+        [39;49m[37m[39;49m[35m| __|| __|  [39;49m[95m[39;49m[37m[39;49m[97m|  )   \\\   
+        [39;49m[37m[39;49m[35m| _| | _|   [39;49m[95m[39;49m[37m[39;49m[97m\_/ |  //|\\ 
+        [39;49m[37m[39;49m[35m|___||_|       [39;49m[95m[39;49m[37m[39;49m[97m/   \\\/\\[39;49m[37m[39;49m
+
+Entity Framework Core .NET Command-line Tools 6.0.8
+
+Usage: dotnet ef [options] [command]
+
+Options:
+  --version        Show version information
+  -h|--help        Show help information
+  -v|--verbose     Show verbose output.
+  --no-color       Don't colorize output.
+  --prefix-output  Prefix output with level.
+
+Commands:
+  database    Commands to manage the database.
+  dbcontext   Commands to manage DbContext types.
+  migrations  Commands to manage migrations.
+
+Use "dotnet ef [command] --help" for more information about a command.
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hddotnet ef dbcontext[?2004l
+[?1h=[?1h=
+
+Usage: dotnet ef dbcontext [options] [command]
+
+Options:
+  -h|--help        Show help information
+  -v|--verbose     Show verbose output.
+  --no-color       Don't colorize output.
+  --prefix-output  Prefix output with level.
+
+Commands:
+  info      Gets information about a DbContext type.
+  list      Lists available DbContext types.
+  optimize  Generates a compiled version of the model used by the DbContext.
+  scaffold  Scaffolds a DbContext and entity types for a database.
+  script    Generates a SQL script from the DbContext. Bypasses any migrations.
+
+Use "dbcontext [command] --help" for more information about a command.
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet ef dbcontext script[?2004l
+[?1h=[?1h=[?1h=[?1h=Build started...
+[?1h=Build succeeded.
+[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[39;49m[39;49m[37m[39;49m[97mCREATE TABLE "PetOwners" (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NULL,
+    "emailAddress" text NULL,
+    CONSTRAINT "PK_PetOwners" PRIMARY KEY (id)
+);
+
+
+CREATE TABLE "Pets" (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NOT NULL,
+    color integer NOT NULL,
+    breed integer NOT NULL,
+    "checkedInAt" timestamp without time zone NULL,
+    "petOwnerid" integer NOT NULL,
+    CONSTRAINT "PK_Pets" PRIMARY KEY (id),
+    CONSTRAINT "FK_Pets_PetOwners_petOwnerid" FOREIGN KEY ("petOwnerid") REFERENCES "PetOwners" (id) ON DELETE CASCADE
+);
+
+
+CREATE INDEX "IX_Pets_petOwnerid" ON "Pets" ("petOwnerid");
+
+
+[39;49m[37m[39;49m
+[?1h=[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet ef dbcontext script      [9D         [10Drun[10Dnpm run start[13Ddotnet run   [?2004l
+[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+Pets
+[?1h=Pets
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+Pets
+[?1h=Pets
+get by id1
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+[?1h=get by id3
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+Pets
+[?1h=Pets
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
 [?1h=
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+[?1h=^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+                                                                            [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+[?1h=get by id3
+Pets
+Pets
+Pets
+Pets
+Pets
+Pets
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+Pets
+[?1h=Pets
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+[?1h=
+^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template
+[?1h=^C[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[?1h=[1m[7m%[27m[1m[0m                                                                                                                                                                                                                    [0m[27m[24m[Jtazzazi@Tareks-MacBook-Pro Pet-Hotel-Template % [K[?2004hdotnet run[?2004l
+[?1h=[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning ASP5001: 'CompatibilityVersion' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,55): warning CS0618: 'CompatibilityVersion.Version_3_0' is obsolete: 'This CompatibilityVersion value is obsolete.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[39;49m[93m/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/Startup.cs(36,13): warning ASP5001: 'MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(IMvcBuilder, CompatibilityVersion)' is obsolete: 'This API is obsolete and will be removed in a future version. Consider removing usages.' [/Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template/dotnet-bakery.csproj]
+[39;49m[?1h=[?1h=Using connection string: Host=localhost;Port=5432;Username=;Password=;Database=pet_hotel;
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+[40m[32minfo[39m[22m[49m: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/tazzazi/Documents/Prime/tier3/Pet-Hotel-Template

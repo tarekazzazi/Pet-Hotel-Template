@@ -21,14 +21,12 @@ namespace pet_hotel.Controllers
         [HttpGet]
         public IEnumerable<PetOwner> GetOwners() 
         {
-            Console.WriteLine("Pets", _context.PetOwners.Include(petOwner => petOwner.petList));
-            return _context.PetOwners;
+            return _context.PetOwners.Include(petOwner => petOwner.petList);
         }
 
         [HttpGet("{id}")]
         public ActionResult<PetOwner> GetById(int id)
         {
-            Console.WriteLine("get by id" + id);
             PetOwner petOwner = _context.PetOwners
             .Include(petOwner => petOwner.petList)
             .SingleOrDefault(petOwner => petOwner.id == id);
@@ -54,7 +52,6 @@ namespace pet_hotel.Controllers
         }
 
         [HttpPut("{id}")]
-
         public  PetOwner Put(int id, PetOwner petOwner){
             petOwner.id = id;
             _context.PetOwners.Update(petOwner);
