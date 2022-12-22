@@ -34,6 +34,15 @@ namespace pet_hotel.Controllers
         return CreatedAtAction(nameof(Post), new { id = pet.id }, pet);
         }
 
+        [HttpPut("{id}")]
+
+        public Pet Put(int id, Pet pet){
+            pet.id = id;
+            _context.Pets.Update(pet);
+            _context.SaveChanges();
+            return pet;
+        }
+
         [HttpDelete("{id}")]
         public IActionResult deletePet(int id){
             Pet pet = _context.Pets.Find(id);
