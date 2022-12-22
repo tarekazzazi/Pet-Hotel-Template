@@ -43,6 +43,24 @@ namespace pet_hotel.Controllers
             return pet;
         }
 
+        [HttpPut("/api/pets/{id}/checkin")]
+        public IActionResult Checkin(int id){
+            Pet petToUpdate = _context.Pets.Find(id);
+
+           petToUpdate.checkedIn();
+           _context.Update(petToUpdate);
+           _context.SaveChanges();
+            return Ok(petToUpdate);
+        }
+        [HttpPut("/api/pets/{id}/checkout")]
+        public IActionResult CheckOut(int id){
+            Pet petToUpdate = _context.Pets.Find(id);
+            
+            petToUpdate.checkedOut();
+            _context.Update(petToUpdate);
+            _context.SaveChanges();
+            return Ok(petToUpdate);
+        }
         [HttpDelete("{id}")]
         public IActionResult deletePet(int id){
             Pet pet = _context.Pets.Find(id);
