@@ -21,8 +21,19 @@ namespace pet_hotel.Controllers
         [HttpGet]
         public IEnumerable<PetOwner> GetOwners() 
         {
-            
-            return _context.PetOwners.Include(petOwner => petOwner.petList);
+            Console.WriteLine("Pets", _context.PetOwners.Include(petOwner => petOwner.petList));
+            return _context.PetOwners;
+        }
+
+        [HttpGet("{id}")]
+        public ActionResult<PetOwner> GetById(int id)
+        {
+            Console.WriteLine("get by id" + id);
+            PetOwner petOwner = _context.PetOwners
+            .Include(petOwner => petOwner.petList)
+            .SingleOrDefault(petOwner => petOwner.id == id);
+
+            return petOwner;
         }
 
         [HttpDelete("{id}")]
@@ -35,12 +46,22 @@ namespace pet_hotel.Controllers
             return NoContent();
         }
         [HttpPost]
-        public IActionResult PostOwner(PetOwner petOwners)
+        public IActionResult Post(PetOwner petOwner)
         {
-        _context.PetOwners.Add(petOwners);
+        _context.Add(petOwner);
         _context.SaveChanges();
-        return CreatedAtAction("GetOwners", new { id = petOwners.id }, petOwners);
+        return CreatedAtAction(nameof(Post), new { id = petOwner.id }, petOwner);
         }
+
+        [HttpPut("{id}")]
+
+        public  PetOwner Put(int id, PetOwner petOwner){
+            petOwner.id = id;
+            _context.PetOwners.Update(petOwner);
+            _context.SaveChanges();
+            return petOwner;
+        }
+       
   
     }
 }

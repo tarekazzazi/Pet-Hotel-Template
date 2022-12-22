@@ -11,15 +11,16 @@ namespace pet_hotel
         public string name { get; set; }
         public string emailAddress { get; set; }   
         [JsonIgnore]
-        public List<Pet> petList { get; set;}
-        [NotMapped]   
-        public int petCount 
+        public ICollection<Pet> petList { get; set;}
+        public int petCount
         { 
-            get
+            get 
             {
-                return (this.petList != null ? this.petList.Count : 0);
+                 return this.petList != null ? this.petList.Count : 0 ;
+            }
+            set 
+            {;
             }
         }
-
     }
 }

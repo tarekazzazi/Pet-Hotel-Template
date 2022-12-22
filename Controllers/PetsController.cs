@@ -25,11 +25,13 @@ namespace pet_hotel.Controllers
           }
         [HttpPost]
 
-        public IActionResult PostPet(Pet pet)
+        public IActionResult Post(Pet pet)
         {
-        _context.Pets.Add(pet);
+        PetOwner owner = _context.PetOwners
+        .SingleOrDefault(owner => owner.id == pet.petOwnerid);
+        _context.Add(pet);
         _context.SaveChanges();
-        return CreatedAtAction("Get Pets", new { id = pet.id }, pet);
+        return CreatedAtAction(nameof(Post), new { id = pet.id }, pet);
         }
 
         [HttpDelete("{id}")]
